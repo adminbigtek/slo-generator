@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Sử dụng GitHub token để xác thực
+          token: ${{ secrets.MY_PERSONAL_TOKEN }}  # Sử dụng GitHub token để xác thực
 
       - name: Set up Git
         run: |
