@@ -2,7 +2,7 @@ name: Sync Upstream
 
 on:
   schedule:
-    - cron: '0 * * * *' # Chạy mỗi giờ
+    - cron: '2 * * * *' # Chạy mỗi giờ
   workflow_dispatch: # Cho phép kích hoạt thủ công
 
 jobs:
